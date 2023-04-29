@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>548</width>
+    <height>465</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>548</width>
+    <height>465</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>548</width>
+    <height>465</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>7</x>
+      <y>294</y>
+      <width>533</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <bold>false</bold>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>1</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SEND_button">
+    <property name="geometry">
+     <rect>
+      <x>427</x>
+      <y>385</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SEND</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Connect_button">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>245</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Connect</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>7</y>
+      <width>113</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Line Commands</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>42</y>
+      <width>120</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>!QUIT = disconnect</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>21</y>
+      <width>113</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <bold>false</bold>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>1</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>7</x>
+      <y>70</y>
+      <width>134</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>!SEND = send message</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>112</y>
+      <width>113</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <bold>false</bold>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>1</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>315</y>
+      <width>407</width>
+      <height>99</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>407</width>
+      <height>99</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>407</width>
+      <height>99</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="chat_messages_textEdit">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>7</y>
+      <width>393</width>
+      <height>288</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>393</width>
+      <height>288</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>393</width>
+      <height>288</height>
+     </size>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>5</number>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Disconnect_button">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>245</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Disconnect</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>548</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
